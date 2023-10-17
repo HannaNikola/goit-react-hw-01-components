@@ -1,11 +1,11 @@
 
 import styles from "./Statistics.module.css";
 
-export const Statistics = ({ title, stats }) => {
+export const Statistics = ({stats}) => {
   return (
     <section className={styles.conteiner}>
       <div className={styles.statistics}>
-      <h2 className={styles.title}>{title}</h2>
+        <h2 className={styles.title}>Upload stats</h2>
 
       <ul style={{ listStyle: "none" }} className={styles.statList}>
         {stats.map((item) => (
